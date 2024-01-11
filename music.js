@@ -4,18 +4,7 @@ let i1=document.getElementById("i1");
 let playbtn=document.getElementById("playbtn")
 playbtn.addEventListener('click',function(){
     audioplayer.play();
-    i1.style.height='10px'
-    i1.style.width= '89%';
-   i1.style.marginLeft= '40px';
-   i1.style. marginTop= '-30px';
-   i1.style. marginBottom= '10px';
-   i1.style. borderRadius= '10px';
-   i1.style. border= '1px solid black';
-    i1.style.backgroundColor= 'rgb(127, 101, 101)';
-    i1.style.animationName= 'fun1';
-    i1.style.animationDuration= '20s';
-    i1.style.animationDelay= '1s';
-    i1.style.animationIterationCount= '1';
+
     
 })
 
@@ -44,6 +33,11 @@ fwbtn.addEventListener('click',function(){
 let halfspeed=document.getElementById("halfspeed")
 halfspeed.addEventListener('click',function(){
     audioplayer.playbackRate=0.5;
+})
+
+let highspeed=document.getElementById("highspeed")
+highspeed.addEventListener('click',function(){
+    audioplayer.playbackRate=2*2;
 })
 
 
